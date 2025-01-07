@@ -1,0 +1,51 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "Dialogue Nodes",
+    "Description": "A set of special nodes to create complete and dynamic dialogues in RPG games.",
+    "Category": "Dialogue",
+    "CreatedBy": "Thomas Lamson",
+    "CreatedByURL": "",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "EnabledByDefault": true,
+    "CanContainContent": false,
+    "IsBetaVersion": false,
+    "Installed": true,
+    "RequiresBuildPlatform": false,
+    "Modules": [
+        {
+            "Name": "DialogueNodes",
+            "Type": "Runtime",
+            "LoadingPhase": "PreDefault",
+            "WhitelistPlatforms": [
+                "Win64",
+                "Win32",
+                "Mac",
+                "Linux",
+                "XboxOne",
+                "PS4",
+                "Switch",
+                "Android",
+                "HTML5"
+            ]
+        },
+        {
+            "Name": "DialogueNodesEditor",
+            "Type": "Editor",
+            "WhitelistPlatforms": [
+                "Win64",
+                "Win32",
+                "Mac",
+                "Linux",
+                "XboxOne",
+                "PS4",
+                "Switch",
+                "Android",
+                "HTML5"
+            ]
+        }
+    ]
+}
